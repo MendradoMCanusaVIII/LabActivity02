@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Time Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial;
+            text-align: center;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 6px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .header {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .timeslot {
+            width: 5%;
+        }
+        .day {
+            width: 5%;
+        }
+        .subject {
+            background-color: #ffffcc;
+        }
+        .recess {
+            background-color: #d68172;
+            font-weight: bold;
+        }
+        .lunch {
+            background-color: #d68172;
+            font-weight: bold;
+        }
+		.fc {
+			background-color: #9dc2ff;
+			font-weight: bold;
+		}
+		.bf {
+			background-color: #d68172;
+			font-weight: bold;
+		}
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;">My Time Table</h1>
+	<hr></hr> 
+    <table>
+        <tr>
+            <th class="header timeslor">Time</th>
+            <th class="header day">Monday</th>
+            <th class="header day">Tuesday</th>
+            <th class="header day">Wednesday</th>
+            <th class="header day">Thursday</th>
+            <th class="header day">Friday</th>
+            <th class="header day">Saturday</th>
+            <th class="header day">Sunday</th>
+        </tr>
+        <tr>
+            <td class="timeslot">7:30 A.M. - 7:50 A.M.</td>
+			<td class="fc" colspan="1" >Flag Ceremony</td>
+			<td class="recess" colspan="4" >Homeroom</td>
+			<td class="fc" colspan="2">Wake Up</td>
+        </tr>
+        <tr>
+            <td class="timeslot">7:50 A.M. - 8:40 A.M.</td>
+            <td class="subject">Homeroom</td>
+            <td class="subject">Biology 1</td>
+            <td class="subject">Computer Science 3 Lecture</td>
+            <td class="subject">Chemistry 1 Lec</td>
+            <td class="subject">Physics 1</td>
+			<td class="subject">Assignments</td>
+			<td class="subject">Assignments</td>
+        </tr>
+        <tr>
+            <td class="timeslot">8:40 A.M. - 9:30 A.M.</td>
+            <td class="subject">English 3</td>
+            <td class="subject">Biology 1</td>
+            <td class="subject">Filipino 3</td>
+            <td class="subject">Chemistry 1 Lec</td>
+            <td class="subject">Physics 1</td>
+			<td class="subject">Assignments</td>
+			<td class="subject">Church</td>
+        </tr>
+        <tr>
+            <td class="timeslot">9:30 A.M. - 9:45 A.M.</td>
+            <td class="recess" colspan="5">Recess</td>
+			<td class="bf" colspan="2">Breakfast</td>
+        </tr>
+        <tr>
+            <td class="timeslot">9:45 A.M. - 10:35 A.M.</td>
+            <td class="subject">Social Science 3</td>
+            <td class="subject">Physics 1</td>
+            <td class="subject">Values Education 3</td>
+            <td class="subject">Computer Science 3 Lab</td>
+            <td class="subject">Statistics 1</td>
+			<td class="subject">Gym</td>
+			<td class="subject">Gym</td>
+        </tr>
+        <tr>
+            <td class="timeslot">10:35 A.M. - 11:25 A.M.</td>
+            <td class="subject">Health 3</td>
+            <td class="subject">English 3</td>
+            <td class="subject">Social Science 3</td>
+            <td class="subject">Computer Science 3 Lab</td>
+            <td class="subject">Statistics 1</td>
+			<td class="subject">Gym</td>
+			<td class="subject">Gym</td>
+        </tr>
+        <tr>
+            <td class="timeslot">11:25 A.M. - 12:15 P.M.</td>
+            <td class="lunch" colspan="7">Lunch</td>
+        </tr>
+        <tr>
+            <td class="timeslot">12:15 P.M. - 1:05 P.M.</td>
+            <td class="subject">Biology 1</td>
+            <td class="subject">Social Science 3</td>
+            <td class="subject">English 3</td>
+            <td class="subject">P.E. 3</td>
+            <td class="subject"></td>
+			<td class="subject">Nap time</td>
+			<td class="subject">Nap time</td>
+        </tr>
+        <tr>
+            <td class="timeslot">1:05 P.M. - 1:55 P.M.</td>
+            <td class="subject">Chemistry 1</td>
+            <td class="subject">Filipino 3</td>
+            <td class="subject">Statistics 1</td>
+            <td class="subject">Values Education 3</td>
+            <td class="subject"></td>
+			<td class="subject">Nap time</td>
+			<td class="subject">Nap time</td>
+        </tr>
+        <tr>
+            <td class="timeslot">1:55 P.M. - 2:10 P.M.</td>
+            <td class="recess" colspan="7">Recess</td>
+        </tr>
+        <tr>
+            <td class="timeslot">2:10 P.M. - 3:00 P.M.</td>
+            <td class="subject">Filipino 3</td>
+            <td class="subject"></td>
+            <td class="subject">Mathematics 3</td>
+            <td class="subject">Music 3</td>
+            <td class="subject"></td>
+			<td class="subject">Sports</td>
+			<td class="subject">Sports</td>
+        </tr>
+        <tr>
+            <td class="timeslot">3:00 P.M. - 3:50 P.M.</td>
+            <td class="subject">Mathematics 3</td>
+            <td class="subject"></td>
+            <td class="subject">Alternative Learning Activities</td>
+            <td class="subject">Mathematics 3</td>
+            <td class="subject"></td>
+			<td class="subject">Free Time</td>
+			<td class="subject">Free Time</td>
+        </tr>
+        <tr>
+            <td class="timeslot">3:50 P.M. - 4:40 P.M.</td>
+			<td class="subject"></td>
+			<td class="subject"></td>
+			<td class="subject">Alternative Learning Activities</td>
+			<td class="subject"></td>
+			<td class="subject"></td>
+			<td class="subject">Free Time</td>
+			<td class="subject">Free Time</td>
+        </tr>
+    </table>
+
+</body>
+</html>
